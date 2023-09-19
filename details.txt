@@ -1,0 +1,64 @@
+1)https://stacklab.in/
+2)Hich screpting ahe apli same to same
+3)Can you please make 
+SquareXTechnologies  web site
+4)Office adress: 11 , Near MC Donald , Dange Chauk , Wakad , Pune
+5)Tya madhe 
+Apan 1)cloud 2) Data management 3)Project supporter 
+
+Hya Pn services add karaycha ahe
+6)https://assolutions.co.in/ : My cousins
+7)Yanche colur combination changle ahe pahun ghya
+8)Gmail : squarexteam20@gmail.com
+9)8007003406
+
+
+link 
+https://instagram.com/squarex_technologies?igshid=NGVhN2U2NjQ0Yg==
+
+code
+<?php
+// Get data from form 
+
+$name = $_POST['name'];
+
+$mobileno= $_POST['phoneno'];
+$message=$_POST['message'];
+
+ 
+$to = "globalenterprises689@gmail.com";
+$subject = "Message from Global Enterprises";
+ 
+// The following text will be sent
+// Name = user entered name
+// Email = user entered email
+// Message = user entered message
+$txt ="Name = ". $name . "\r\n  Email = "
+    . $email . "\r\n Mobile No =" . $mobileno . "\r\n  Message = "
+    . $message;
+ 
+$headers = "From: noreply@GE.com"; 
+
+if($email != NULL) {
+	 mail($to, $subject, $txt, $headers);
+}
+
+
+ 
+// Redirect to
+
+  function function_alert($message) {
+   
+   // Display the alert box
+   echo "<script>alert('$message');</script>";
+}
+
+
+// Function call
+function_alert("Thanks for submitting details, you will be contacted by our registered vendors soon!");
+
+  echo '<script type="text/javascript">
+           window.location = "index.html"
+      </script>';
+                           
+?>
